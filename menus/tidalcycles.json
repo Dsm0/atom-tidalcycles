@@ -5,7 +5,7 @@
     "menu": [{
         "label": "Packages",
         "submenu": [{
-            "label": "TidalCycles",
+            "label": "TidalCycles-Dsm0-Fork",
             "submenu": [{
                 "label": "Boot TidalCycles",
                 "command": "tidalcycles:boot"

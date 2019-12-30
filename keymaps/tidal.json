@@ -1,12 +1,12 @@
 {
-    "atom-workspace atom-text-editor[data-grammar~='tidalcycles']": {
-        "shift-enter": "tidalcycles:eval",
-        "alt-shift-enter": "tidalcycles:eval-copy",
-        "cmd-enter": "tidalcycles:eval-multi-line",
-        "ctrl-enter": "tidalcycles:eval-multi-line",
-        "alt-cmd-enter": "tidalcycles:eval-multi-line-copy",
-        "alt-ctrl-enter": "tidalcycles:eval-multi-line-copy",
-        "shift-cmd-h": "tidalcycles:hush",
-        "shift-ctrl-h": "tidalcycles:hush"
+    "atom-workspace atom-text-editor[data-grammar~='tidalcycles-fork']": {
+        "shift-enter": "tidalcycles-fork:eval",
+        "alt-shift-enter": "tidalcycles-fork:eval-copy",
+        "cmd-enter": "tidalcycles-fork:eval-multi-line",
+        "ctrl-enter": "tidalcycles-fork:eval-multi-line",
+        "alt-cmd-enter": "tidalcycles-fork:eval-multi-line-copy",
+        "alt-ctrl-enter": "tidalcycles-fork:eval-multi-line-copy",
+        "shift-cmd-h": "tidalcycles-fork:hush",
+        "shift-ctrl-h": "tidalcycles-fork:hush"
     }
 }

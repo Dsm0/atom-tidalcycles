@@ -1,5 +1,5 @@
 {
-  "name": "tidalcycles",
+  "name": "tidalcycles-dsm0-fork",
   "main": "./lib/tidalcycles",
   "version": "3.8.3",
   "description": "Atom package for TidalCycles, a language for live coding pattern.",
@@ -16,7 +16,10 @@
   "dependencies": {
     "atom-space-pen-views": "^2.0.3"
   },
-  "repository": "https://github.com/tidalcycles/atom-tidalcycles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidalcycles/atom-tidalcycles.git"
+  },
   "license": "GPL-3.0",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
@@ -27,5 +30,17 @@
         "2.0.0": "autocompleteProvider"
       }
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tidalcycles/atom-tidalcycles/issues"
+  },
+  "homepage": "https://github.com/tidalcycles/atom-tidalcycles#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tidalcycles",
+    "atom"
+  ],
+  "author": "Dsm0"
 }
