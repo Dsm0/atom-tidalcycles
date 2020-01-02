@@ -8,25 +8,25 @@
             "label": "TidalCycles-Dsm0-Fork",
             "submenu": [{
                 "label": "Boot TidalCycles",
-                "command": "tidalcycles:boot"
+                "command": "tidalcycles-dsm0-fork:boot"
             }, {
                 "label": "Reboot Tidalcycles",
-                "command": "tidalcycles:reboot"
+                "command": "tidalcycles-dsm0-fork:reboot"
             }, {
                 "label": "Eval",
-                "command": "tidalcycles:eval"
+                "command": "tidalcycles-dsm0-fork:eval"
             }, {
                 "label": "Eval And Copy",
-                "command": "tidalcycles:eval-copy"
+                "command": "tidalcycles-dsm0-fork:eval-copy"
             }, {
                 "label": "Eval Multi Line",
-                "command": "tidalcycles:eval-multi-line"
+                "command": "tidalcycles-dsm0-fork:eval-multi-line"
             }, {
                 "label": "Eval Multi Line And Copy",
-                "command": "tidalcycles:eval-multi-line-copy"
+                "command": "tidalcycles-dsm0-fork:eval-multi-line-copy"
             }, {
                 "label": "Hush",
-                "command": "tidalcycles:hush"
+                "command": "tidalcycles-dsm0-fork:hush"
             }]
         }]
     }]

@@ -7,7 +7,7 @@ describe('repl', () => {
   let repl = new REPL(consoleView)
 
   beforeEach(() => {
-    waitsForPromise(() => atom.packages.activate('tidalcycles'))
+    waitsForPromise(() => atom.packages.activate('tidalcycles-dsm0-fork'))
   })
 
   describe('init tidal', () => {
