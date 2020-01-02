@@ -7,7 +7,7 @@ describe('boot-tidal', () => {
   let bootTidal = new BootTidal([{ path: '/current/directory' }])
 
   beforeEach(() => {
-    waitsForPromise(() => atom.packages.activate('tidalcycles'))
+    waitsForPromise(() => atom.packages.activate('tidalcycles-dsm0-fork'))
   })
 
   describe('boot file sequence', () => {

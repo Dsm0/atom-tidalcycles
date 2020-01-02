@@ -5,7 +5,7 @@ const Ghc = require('../lib/ghc')
 describe('ghc', () => {
 
   beforeEach(() => {
-    waitsForPromise(() => atom.packages.activate('tidalcycles'))
+    waitsForPromise(() => atom.packages.activate('tidalcycles-dsm0-fork'))
   })
 
   describe('command path', () => {
